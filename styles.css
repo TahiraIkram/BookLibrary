@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+   border:1px solid rgba(0, 0, 0, 0.199);
+   border-radius: 5px;
+   background-color:  rgba(60, 182, 204, 0.507);
+   align-items: center;
+
+}
+
+.addbtn {
+  padding: 10px;
+  text-align: center;
+  border:1px solid transparent;
+  font-size: 18px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgb(83, 165, 180);
+  font-weight: bold;
+  cursor: pointer;
+}
+.addbtn:hover{
+ background-color: rgb(165, 151, 168);
+
+}
+
+.addform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+}
+.addform p {
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: center;
+}
+.addform input {
+  font-size: 14px;
+  padding: 10px 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.addform .input{
+padding: 10px;
+  text-align: center;
+  border:1px solid transparent;
+  font-size: 18px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgb(83, 165, 180);
+  font-weight: bold;
+  cursor: pointer;
+
+
+}
+.addform button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 5px;
+}
+.addform button:hover {
+  color: red;
+}
+.form {
+  display: none;
+}
+.library {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 85%;
+  right: 5%;
+  left: 5%;
+}
+.book {
+  
+  padding: 30px 10px;
+  margin: 5px;
+  width: 200px;
+  height: 300px;
+  border: 0.5px solid transparent;
+  box-shadow:  0 0 10px rgb(60, 162, 180);
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+
+}
+.submit{
+  padding: 10px;
+  text-align: center;
+  border:1px solid transparent;
+  font-size: 18px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgb(83, 165, 180);
+  font-weight: bold;
+  cursor: pointer;
+}
+.submit:hover{
+   background-color: rgb(165, 151, 168);
+}
+.title{
+  margin: 5px;
+}
+.pages{
+  margin: 15px;
+}
+.jsbtn{
+  padding: 10px;
+  text-align: center;
+  border:1px solid transparent;
+  font-size: 10px;
+  margin-top: 40px;
+  margin-left: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgb(83, 165, 180);
+  font-weight: bold;
+  cursor: pointer;
+}
